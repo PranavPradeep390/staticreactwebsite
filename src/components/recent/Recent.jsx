@@ -7,7 +7,7 @@ import './recent.css'
 function Recent() {
   return (
     <div id='recent'>
-         <h1 className='mt-5' style={{textAlign:"center",color:'gray'}}>Recent Property Listed</h1>
+         <h1 className='mt-5' style={{textAlign:"center",color:'gray',height:'60px'}}>Recent Property Listed</h1>
             <p style={{textAlign:"center"}}>Find All Type of Property.</p>
             <div id='recentin'>
 
@@ -152,7 +152,7 @@ function Recent() {
 
              </div>
              <div id='locations'>
-             <h1 className='mt-5' style={{textAlign:"center",color:'gray'}}>Explore By Location</h1>
+             <h1 className='mt-5' style={{textAlign:"center",color:'gray',height:"60px"}}>Explore By Location</h1>
             <p style={{textAlign:"center"}}>Find All Type of Property by Location</p>
             <div id='locin'>
 

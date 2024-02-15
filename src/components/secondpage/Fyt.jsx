@@ -4,7 +4,7 @@ import "./fyt.css"
 function Fyt() {
   return (
     <div id='fyt'>
-            <h1 className='mt-5' style={{textAlign:"center",color:'gray'}}>Featured Property Types</h1>
+            <h1 className='mt-5' style={{textAlign:"center",color:'gray',height:'60px'}}>Featured Property Types</h1>
             <p style={{textAlign:"center"}}>Find All Type of Property.</p>
         <div id='fytin'>
 
