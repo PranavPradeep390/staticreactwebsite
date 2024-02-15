@@ -1,0 +1,88 @@
+#home
+{
+    width: 100%;
+    height: 900px; 
+    background-image: url("./banner.png");
+    background-position:center;
+    background-size: cover;
+}  
+
+#home-content
+{
+  width: 100%;
+  height: 600px;
+  margin-top: 220px; 
+ }
+ #data_box
+ {
+    width: 80%;
+    height: 120px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+
+ }
+ .dboxes{
+    padding: 20px 0px;
+ }
+ .dboxes>p{
+    font-size: medium;
+    color: rgb(74, 92, 86);
+    font-weight: 600;
+ }
+ .dboxes>input::placeholder {
+    color: rgb(12, 4, 4);
+    font-weight: 600;
+   text-align: center;
+  }
+  .dboxes>input{
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 4px;
+  }
+  .dblast>p{
+    color: black;
+  }
+
+  @media screen and (min-width : 280px)  and (max-width : 1068px){
+   #data_box
+ {
+    width: 90%;
+    height: 120px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+
+ }
+ .dboxes{
+    padding: 20px 0px;
+    width: 100px;
+ }
+ .dboxes>p{
+    font-size: smaller;
+    color: rgb(74, 92, 86);
+    font-weight: 600;
+ }
+ .dboxes>input::placeholder {
+    color: rgb(12, 4, 4);
+    font-size: smaller;
+   text-align: center;
+  }
+  .dboxes>input{
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 0px;
+    width: 90%;
+  }
+  .dblast>p{
+    color: black;
+  }
+.navltr{
+   font-size: xx-small;
+   color: black;
+  }
+  }
