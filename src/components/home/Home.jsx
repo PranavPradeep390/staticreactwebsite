@@ -26,7 +26,7 @@ function Home() {
         </Navbar>
        </div>
          <div id='home-content'>
-           <div><h1 style={{textAlign:"center",color:"white",height:"130px",fontSize:"60px"}}>Search Your Next Home</h1></div>
+           <div><h1  style={{textAlign:"center",color:"white",height:"140px",fontSize:"60px"}}>Search Your Next Home</h1></div>
            <div><p className='mb-5' style={{textAlign:"center",color:"white",fontSize:"17px"}}>Find new & featured property located in your local city.</p></div>
            <div id="data_box">
             <div className="dboxes">
